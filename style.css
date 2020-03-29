@@ -1,0 +1,74 @@
+h1 {
+    font-size: 1.8em;
+}
+
+h2 {
+    font-size: 1em;
+}
+
+
+
+.section1Buffer {
+    margin-top: 80px;
+}
+
+.buffer2 {
+    margin-top: 100px;
+}
+
+.buffer3 {
+    margin-top: 60px;
+}
+
+.section2Background {
+    background-color: hsl(240, 75%, 98%);
+}
+
+#arrowIcon {
+    width: 30px;
+    height: 30px;
+}
+
+#textWithArrow {
+    margin-top: 12px;
+    margin-right: 10px;
+}
+
+
+
+hr {
+    border: 0;
+    clear:both;
+    display:block;
+    width: 47%;               
+    background-color:black;
+    height: 1px;
+    margin-top: 0;
+    margin-bottom: 50px;
+  }
+
+  .quoteCard {
+      background-color: white;
+      border-radius: 7px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+  }
+
+  .iconQuotes {
+      width: 30px;
+      height: 30px;
+  }
+
+  .avatar-testimonial {
+      height: 40px;
+      width: 40px;
+  }
+
+  .kyleText {
+      font-size: 0.8em;
+      margin-bottom: 0px;
+  }
+
+  .kyleTitle {
+    font-size: 0.5em;
+    margin-bottom: 0px;
+  }
