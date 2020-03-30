@@ -12,7 +12,7 @@
       href="./images/favicon-32x32.png"
     />
 
-    <title>Frontend Mentor | Fylo landing page with two column layout</title>
+    <title>Two Column Landing Page</title>
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
     <style>
@@ -70,81 +70,90 @@
     </nav>
 
     <!-- Section 1 - enter email -->
-    <section class="d-flex flex-column text-center section1Buffer">
-      <img src="images/illustration-1.svg" class="w-100" alt="" />
-      <div class="mt-5 mb-3">
-        <h1>All your files in one secure location, accessible anywhere.</h1>
-      </div>
-      <div class="px-4 mb-4">
-        <p>
-          Fylo store your most important files in oe secure location. Access
-          them whereever you need, share and collaborate with friends, family,
-          and co-workers.
-        </p>
-      </div>
-
+    <section class="d-flex flex-column flex-md-row-reverse text-center text-md-left section1Buffer">
       <div>
-        <form>
-          <div class="form-group px-4">
-            <input
-              type="email"
-              class="form-control"
-              id="exampleInputEmail1"
-              placeholder="Enter your email.."
-            />
-          </div>
-          <div class="px-4">
-            <button type="submit" class="btn btn-primary w-100">
-              Get started
-            </button>
-          </div>
-        </form>
+        <img src="images/illustration-1.svg" class="w-100 illustrationSize" alt="" />
+      </div>
+      <div>
+        <div class="mt-5 mb-3 ml-md-4 ">
+          <h1>All your files in one secure location, accessible anywhere.</h1>
+        </div>
+        <div class="px-4 mb-4">
+          <p>
+            Fylo store your most important files in oe secure location. Access
+            them whereever you need, share and collaborate with friends, family,
+            and co-workers.
+          </p>
+        </div>
+
+        <div>
+          <form class="d-md-flex flex-md-row">
+            <div class="form-group px-4 px-md-0 pl-md-4">
+              <input
+                type="email"
+                class="form-control"
+                id="exampleInputEmail1"
+                placeholder="Enter your email.."
+              />
+            </div>
+            <div class="px-4 px-md-0 pl-md-2">
+              <button type="submit" class="btn btn-primary w-100">
+                Get started
+              </button>
+            </div>
+          </form>
+        </div>
       </div>
     </section>
 
     <!-- Section 2 - see how Fylo works -->
-    <div>
-      <img src="images/bg-curve-mobile.svg" class="img-fluid buffer2" alt="" />
+<div class="">
+      <img src="images/bg-curve-mobile.svg" class="w-100 buffer2" alt="" />
+      
     </div>
-    <section class="d-flex flex-column section2Background">
-      <div>
+    
+    <section class="d-flex flex-column flex-md-row-reverse section2Background">
+      <div class="align-self-md-center">
         <img src="images/illustration-2.svg" class="w-100" alt="" />
       </div>
-      <div>
-        <h2 class="text-center pb-3 buffer3 darkBlue">
-          Stay productive, whereever you are
-        </h2>
-      </div>
-      <div class="px-4 lightBlue">
-        <p class="mb-3">
-          Never let location be an issue when accessing your files. Fylo has you
-          covered for all your file storage needs.
-        </p>
-        <p>
-          Securely share files and folders with friends, family and colleagues
-          for live collaboration. No email attachments required!
-        </p>
-      </div>
-      <div
-        class="d-flex flex-row justify-content-center align-items-center mt-3" id="textWithArrow"
-      >
-        <a href="#" class="px-2"><p class="cyanLink">See how Fylo works</p></a>
-        <img src="images/icon-arrow.svg" id="arrowIcon" alt="" />
-      </div>
-      <hr />
-      <div class="quoteCard mx-5 mb-5">
-        <div class="d-flex flex-column m-4">
-          <img src="images/icon-quotes.svg" class="iconQuotes " alt="" />
-          <p class="py-3 darkBlue">
-            Fylo has improved our team productivity by an order of a magnitude.
-            Since making the switch our team has become a well-oiled
-            collaboration machine.
+      <div class="d-flex flex-column text-md-left">
+        <div class="ml-md-4">
+          <h1 class="text-center text-md-left pb-3 buffer3 darkBlue">
+            Stay productive, wherever you are
+          </h1>
+        </div>
+        <div class="px-4 lightBlue">
+          <p class="mb-3">
+            Never let location be an issue when accessing your files. Fylo has you
+            covered for all your file storage needs.
           </p>
-          <div class="d-flex flex-row align-items-center">
-            <img src="images/avatar-testimonial.jpg" class="rounded-circle avatar-testimonial mr-2" alt="">
-            <div class="d-flex flex-column">
-              <p class="kyleText">Kyle Burton</p>
-              <p class="kyleTitle">Founder & CEO, Huddle</p>
+          <p>
+            Securely share files and folders with friends, family and colleagues
+            for live collaboration. No email attachments required!
+          </p>
+        </div>
+        <div class="mt-3">
+          <div
+            class="d-flex flex-row justify-content-center justify-content-md-start align-items-center ml-md-3" id="textWithArrow"
+          >
+            <a href="#" class="px-2"><p class="cyanLink">See how Fylo works</p></a>
+            <img src="images/icon-arrow.svg" id="arrowIcon" alt="" />
+          </div>
+        </div>
+        <div class="quoteCard mx-5 mx-md-4 mb-5 mt-3">
+          <div class="d-flex flex-column m-4">
+            <img src="images/icon-quotes.svg" class="iconQuotes " alt="" />
+            <p class="py-3 darkBlue">
+              Fylo has improved our team productivity by an order of a magnitude.
+              Since making the switch our team has become a well-oiled
+              collaboration machine.
+            </p>
+            <div class="d-flex flex-row align-items-center">
+              <img src="images/avatar-testimonial.jpg" class="rounded-circle avatar-testimonial mr-2" alt="">
+              <div class="d-flex flex-column">
+                <p class="kyleText">Kyle Burton</p>
+                <p class="kyleTitle">Founder & CEO, Huddle</p>
+              </div>
             </div>
           </div>
         </div>
@@ -152,12 +161,12 @@
     </section>
 
     <!-- Section 3 - enter email -->
-    <section class="lightPurbleBg text-center px-4 py-5">
-      <div class="mb-4">
-        <h2>Get early access today</h2>
+    <section class="d-flex flex-column flex-md-row justify-content-md-between lightPurbleBg text-center px-4 py-5">
+      <div class="mb-4 ml-md-4 mt-md-3 text-md-left getEarly">
+        <h1 class="whiteText">Get early access today</h1>
         <p>it only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.</p>
       </div>
-      <div class="mx-3">
+      <div class="mx-3 mt-md-3 form-btn-size">
         <form>
           <div class="form-group px-4">
             <input
@@ -179,7 +188,7 @@
     <!-- footer -->
     <footer class="p-5">
       <div class="mt-4">
-        <img src="images/logo.svg" alt="">
+        <img src="images/logo.svg" class="footerLogo" alt="">
       </div>
       <div class="my-5">
         <p class="mb-3"><img src="images/icon-phone.svg" class="pr-3" alt=""> Phone: +1-543-123-4567</p>

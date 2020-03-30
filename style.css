@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Raleway&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans&display=swap);
 
 body {
     font-family: 'Open Sans', sans-serif;
@@ -23,6 +23,10 @@ p {
     margin-bottom: 0px;
 }
 
+.illustrationSize {
+    max-width: 700px;
+}
+
 .darkBlue {
     color: hsl(243, 87%, 12%);
 }
@@ -37,8 +41,10 @@ p {
 }
 
 .buffer2 {
-    margin-top: 100px;
+    margin-top: 100px;    
 }
+
+
 
 .buffer3 {
     margin-top: 60px;
@@ -71,44 +77,73 @@ hr {
     margin-bottom: 50px;
   }
 
-  .quoteCard {
-      background-color: white;
-      border-radius: 7px;
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
-  }
+.quoteCard {
+    background-color: white;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+}
 
-  .iconQuotes {
-      width: 30px;
-      height: 30px;
-  }
+.iconQuotes {
+    width: 30px;
+    height: 30px;
+}
 
-  .avatar-testimonial {
-      height: 40px;
-      width: 40px;
-  }
+.avatar-testimonial {
+    height: 40px;
+    width: 40px;
+}
 
-  .kyleText {
-      font-size: 0.8em;
-      margin-bottom: 0px;
-      color: darkBlue;
-      font-weight: bold;
-  }
-
-  .kyleTitle {
-    font-size: 0.5em;
+.kyleText {
+    font-size: 0.8em;
     margin-bottom: 0px;
-  }
+    color: darkBlue;
+    font-weight: bold;
+}
 
-  .lightPurbleBg {
-      background-color: hsl(238, 22%, 44%);
-      color: white;
-  }
+.kyleTitle {
+font-size: 0.5em;
+margin-bottom: 0px;
+}
 
-  footer {
-    background-color: hsl(243, 87%, 12%);
+.lightPurbleBg {
+    background-color: hsl(238, 22%, 44%);
     color: white;
-  }
+}
 
-  .cyanLink {
-      color: hsl(170, 45%, 43%);
-  }
+footer {
+background-color: hsl(243, 87%, 12%);
+color: white;
+}
+
+.cyanLink {
+    color: hsl(170, 45%, 43%);
+}
+
+.footerLogo {
+    filter: brightness(0) invert(1);
+}
+
+.whiteText {
+    color: white;
+}
+
+
+
+
+@media screen and (min-width: 768px) {
+        .quoteCard {
+            width: 400px;
+        }
+        .form-btn-size {
+            min-width: 400px;  
+        }
+        .getEarly {
+            max-width: 450px;
+        }
+        
+}
+
+
+@media screen and (min-width: 1200px) {
+
+}
