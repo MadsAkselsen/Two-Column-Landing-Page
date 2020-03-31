@@ -140,6 +140,12 @@ color: white;
         .getEarly {
             max-width: 450px;
         }
+        .btnSizeSmall {
+            width: 250px;
+        }
+        section, footer {
+            
+        }
         
 }
 
